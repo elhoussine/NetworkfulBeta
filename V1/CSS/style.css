@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.noradius{
+  border-radius: 0;
+  -webkit-appearence: none;
+}
+
+.mynav {
+  background: #22222;
+}
+
+.tint {
+  position: relative;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* bg_shadow: */
+  background: rgba(90,90,90,0.38);
+}
+#banner {
+  background-image: url(../Images/poly2.png);
+  /*background-position: center center;*/
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 14em 0em 14em;
+  text-align: center;
+}
+
+#banner :last-child {
+  margin-bottom: 0;
+}
+
+#banner h2 {
+  color: #ffffff;
+  font-size: 6em;
+  line-height: 1.25em;
+  margin: 1.5em 0 -0.2em 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#banner p {
+  font-size: 1.5em;
+  margin-bottom: 1.75em;
+  font-weight: lighter;
+}
+
+
+/* Rectangle 3: */
+.button1 {
+  background: rgba(255,255,255,0.3);
+  border: 1px solid #FFF;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: .7em 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background: rgba(255,255,255,0.5);
+  text-decoration: none;
+  color: #DBDBDB;
+}
+
+.button1:focus {
+  text-decoration: none;
+  color: white;
+  /*to remove dotted outline*/
+  outline: 0;
+}
+
+.displayblock {
+  display: block;
+}
+
+.arrowdown {
+  display: block;
+  padding-bottom: 1.5em;
+}
+
+.arrowleft {
+  float: left;
+  left: 2em;
+  /*make it bigger from bootstrap*/
+  transform: scale(1.5);
+
+}
+
+.arrowright {
+  float: right;
+  right: 2em;
+  /*make it bigger from bootstrap*/
+  transform: scale(1.5);
+}
+
+#getStarted1 {
+  position: relative;
+  top: 4.5em;
+}
+
+#one {
+  /* bgcolor1: */
+background: #463F47;
+}
+
+#one h2 {
+  /* New way of thinking: */
+font-family: Helvetica;
+font-weight: lighter;
+font-size: 62.15px;
+color: #F3F3F3;
+line-height: 75px;
+padding: 1em 0 .4em 0;
+}
+
+#one p {
+  /* Instead of leting ad: */
+font-size: 1.4em;
+font-weight: lighter;
+color: #F3F3F3;
+line-height: 30px;
+margin-top: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.breakone {
+  /* break: */
+background: #3FCBD9;
+display: block;
+height: .25em;
+width: 10em;
+/*for center*/
+margin: auto;
+}

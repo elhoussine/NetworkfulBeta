@@ -1,0 +1,20 @@
+body {
+  background: black;
+}
+
+/* Rectangle 3: */
+.button1 {
+background: rgba(255,255,255,0.3);
+border: 1px solid #FFF;
+border-radius: 2px;
+font-family: Helvetica;
+font-weight: lighter;
+font-size: 20px;
+padding: .7em 1.2em;
+color: white;
+text-decoration: none;
+}
+
+.button1:hover {
+  background: rgba(255,255,255,0.5);
+}
