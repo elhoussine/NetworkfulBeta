@@ -216,8 +216,8 @@ body {
 /*button getting started two (Green) */
 /*already used bootstrap rows and cols all i need is to set some padding*/
 #getStarted2 {
-padding-top: 5em;
-padding-bottom: 2.5em;
+  padding-top: 5em;
+  padding-bottom: 2.5em;
 }
 
 .button2 {
@@ -275,4 +275,23 @@ starting section two
   font-weight: lighter;
   line-height: 30px;
   margin-top: 1em;
+}
+
+.twocols {
+  /* bgcolor2: */
+  background: #F6F6F6;
+  padding-top: 2em;
+}
+
+/*icons for section two */
+
+.iconborder2 {
+  /* oval3: */
+  background: rgba(24,24,24,0.05);
+  border: 1px solid #181818;
+  border-radius: 50%;
+  /*float: left;*/
+  height: 10.35em;
+  width: 10.35em;
+  margin: 0 auto;
 }
