@@ -4,6 +4,8 @@
 
 body {
   font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 11pt;
+
 }
 
 .noradius{
@@ -61,14 +63,21 @@ body {
 }
 
 
-/* Rectangle 3: */
+/* button : getting started 1 (white)*/
+
+#getStarted1 {
+  position: relative;
+  top: 4.5em;
+}
+
+
 .button1 {
   background: rgba(255,255,255,0.3);
   border: 1px solid #FFF;
   border-radius: 2px;
   font-family: Helvetica;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 1.429em;
   padding: .7em 1.2em;
   color: white;
   text-decoration: none;
@@ -111,45 +120,159 @@ body {
   transform: scale(1.5);
 }
 
-#getStarted1 {
-  position: relative;
-  top: 4.5em;
-}
-
 #one {
   /* bgcolor1: */
-background: #463F47;
+  background: #463F47;
 }
 
 #one h2 {
   /* New way of thinking: */
-font-family: Helvetica;
-font-weight: lighter;
-font-size: 62.15px;
-color: #F3F3F3;
-line-height: 75px;
-padding: 1em 0 .4em 0;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 4.439em;
+  color: #F3F3F3;
+  line-height: 75px;
+  padding: 1em 0 .4em 0;
 }
 
 #one p {
   /* Instead of leting ad: */
-font-size: 1.4em;
-font-weight: lighter;
-color: #F3F3F3;
-line-height: 30px;
-margin-top: 1em;
+  font-size: 1.4em;
+  font-weight: lighter;
+  color: #F3F3F3;
+  line-height: 30px;
+  margin-top: 1em;
 }
 
 .center {
   text-align: center;
 }
 
+
+/*horizontal green break line thin designed for section one*/
+
 .breakone {
   /* break: */
-background: #3FCBD9;
-display: block;
-height: .25em;
-width: 10em;
-/*for center*/
-margin: auto;
+  background: #3FCBD9;
+  display: block;
+  height: .25em;
+  width: 10em;
+  /*for center*/
+  margin: auto;
+}
+
+/*icons stuff*/
+
+.iconborder {
+  /* oval1: */
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  border: 1px solid #FFFFFF;
+  /*float: left;*/
+  height: 10.35em;
+  width: 10.35em;
+  margin: 0 auto;
+}
+
+.iconheart {
+  color: white;
+  transform: scale(7);
+  top: 50%;
+  left: -.22em;
+}
+
+.iconbars {
+  color: white;
+  transform: scale(6);
+  top: 43%;
+  left: -.22em;
+}
+
+.iconusd {
+  color: white;
+  transform: scale(6);
+  top: 48%;
+  left: -.22em;
+}
+
+
+/*colums of sections one*/
+.onecols {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #463F47;
+
+}
+
+
+/*span with helv lighter designed for section one*/
+.fonthelv {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #F3F3F3;
+}
+
+/*button getting started two (Green) */
+/*already used bootstrap rows and cols all i need is to set some padding*/
+#getStarted2 {
+padding-top: 5em;
+padding-bottom: 2.5em;
+}
+
+.button2 {
+  /* Rectangle 3 Copy: */
+  background: rgba(87,204,70,0.07);
+  border: 1px solid #33EF30;
+  border-radius: 2px;
+  color: #F3F3F3;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1.429em;
+  padding: .7em 1.2em;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background: rgba(87,204,70,0.3);
+  text-decoration: none;
+  color: #DBDBDB;
+}
+
+.button2:focus {
+  text-decoration: none;
+  color: white;
+  /*to remove dotted outline*/
+  outline: 0;
+}
+
+.centerbox {
+  margin: 0 auto;
+  position: relative;
+}
+
+starting section two
+#two {
+  /* bgcolor2: */
+  background: #F6F6F6;
+}
+
+#two h2 {
+  /* Get extra income: */
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 4.439em;
+  color: #F3F3F3;
+  line-height: 75px;
+  padding: 1em 0 .4em 0;
+  color: #181818;
+}
+
+#two p {
+  /* Got friends and conn: */
+  color: #181818;
+  font-size: 1.4em;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-top: 1em;
 }
