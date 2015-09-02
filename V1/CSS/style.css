@@ -5,17 +5,31 @@
 body {
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 11pt;
+  background-color: #F6F6F6;
+
 
 }
+.navbar-default {
+  background-color: #222;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: #898989;
+ }
+
+ .navbar-brand {
+   text-shadow: 0;
+   text-decoration: none;
+   
+ }
+
+
+
 
 .noradius{
   border-radius: 0;
   -webkit-appearence: none;
 }
 
-.mynav {
-  background: #22222;
-}
 
 .tint {
   position: relative;
@@ -109,15 +123,27 @@ body {
   float: left;
   left: 2em;
   /*make it bigger from bootstrap*/
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
 
+
+}
+
+.arrowleft:hover {
+  cursor: pointer;
 }
 
 .arrowright {
   float: right;
   right: 2em;
   /*make it bigger from bootstrap*/
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
+
+}
+
+.arrowright:hover {
+  cursor: pointer;
 }
 
 #one {
@@ -176,23 +202,37 @@ body {
 
 .iconheart {
   color: white;
+  -webkit-transform: scale(7);
   transform: scale(7);
+
   top: 50%;
   left: -.22em;
 }
 
 .iconbars {
   color: white;
+  -webkit-transform: scale(6);
   transform: scale(6);
+
   top: 43%;
   left: -.22em;
 }
 
 .iconusd {
   color: white;
+  -webkit-transform: scale(6);
   transform: scale(6);
+
   top: 48%;
   left: -.22em;
+}
+
+.iconking {
+  -webkit-transform: scale(4.5);
+  transform: scale(4.5);
+
+  top: 45%;
+  color: black;
 }
 
 
@@ -206,7 +246,7 @@ body {
 
 
 /*span with helv lighter designed for section one*/
-.fonthelv {
+.fonthelvone {
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 1em;
@@ -217,7 +257,7 @@ body {
 /*already used bootstrap rows and cols all i need is to set some padding*/
 #getStarted2 {
   padding-top: 5em;
-  padding-bottom: 2.5em;
+  padding-bottom: 3em;
 }
 
 .button2 {
@@ -254,7 +294,7 @@ body {
 starting section two
 #two {
   /* bgcolor2: */
-  background: #F6F6F6;
+  background-color: #F6F6F6;
 }
 
 #two h2 {
@@ -262,7 +302,6 @@ starting section two
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 4.439em;
-  color: #F3F3F3;
   line-height: 75px;
   padding: 1em 0 .4em 0;
   color: #181818;
@@ -279,7 +318,7 @@ starting section two
 
 .twocols {
   /* bgcolor2: */
-  background: #F6F6F6;
+  background-color: inherit;
   padding-top: 2em;
 }
 
@@ -294,4 +333,231 @@ starting section two
   height: 10.35em;
   width: 10.35em;
   margin: 0 auto;
+}
+.iconborder3 {
+  /* oval3: */
+  background: rgba(24,24,24,0.05);
+  border: 1px solid #181818;
+  border-radius: 50%;
+  /*float: left;*/
+  height: 9em;
+  width: 9em;
+  margin: 0 auto;
+}
+
+.getpayedPositioning {
+  padding-top: .7em;
+  padding-left: 1em;
+}
+.getpayed {
+  background-image: url(../Images/icons/payment7.png);
+  height: 7.71em;
+  width: 7.71em;
+  background-size: contain;
+  overflow: hidden;
+}
+
+/*span with helv lighter designed for section two*/
+.fonthelvtwo {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #181818;
+}
+
+.textpadding {
+  padding: 0 5% 0 5%;
+}
+
+.textpadding2 {
+  padding: 0 20% 0 20%;
+}
+
+.button3 {
+  /* Rectangle 3 Copy 2: */
+  background: rgba(87,204,70,0.07);
+  border: 1px solid #2C8F2B;
+  border-radius: 2px;
+  color: #181818;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1.429em;
+  padding: .7em 1.2em;
+  text-decoration: none;
+}
+
+.button3:hover {
+  background: rgba(87,204,70,0.3);
+  text-decoration: none;
+  color: #333;
+}
+
+.button3:focus {
+  text-decoration: none;
+  color: #333;
+  /*to remove dotted outline*/
+  outline: 0;
+}
+
+
+/*section three business :) */
+
+#three {
+  /* bgcolor1: */
+  background: #463F47;
+    padding: 2.5em 0 2.5em 0;
+}
+
+.paymentmethods {
+  height: 10.5em;
+  width: 10.5em;
+}
+
+
+ /*section four shit ;) */
+
+ #four {
+   background-color: #F6F6F6;
+   padding-bottom: 5em;
+ }
+
+ #four h2 {
+   /* Get extra income: */
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 4.439em;
+   line-height: 75px;
+   padding: 1em 0 .4em 0;
+   color: #181818;
+
+ }
+
+.sendicon {
+  -webkit-transform: scale(5);
+  transform: scale(5);
+
+}
+
+.gotQuestionLink {
+ color: #333;
+}
+.gotQuestionLink:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.gotQuestionLink:focus {
+  text-decoration: none;
+  /*to remove dotted outline*/
+  outline: 0;
+  color: #333;
+}
+
+#myfooter {
+  background-image: url(../Images/footer.png);
+  /*background-position: center center;*/
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+#myfooter :last-child {
+  margin-bottom: 0;
+}
+
+#myfooter h2 {
+  color: #E5E5E5;
+  font-size: 2.6em;
+  line-height: 1.25em;
+  padding: 0;
+  font-family: "Raleway";
+  font-weight: bold;
+  letter-spacing: -.08em;
+  margin: 0;
+}
+
+.footerCopyright {
+  font-size: .9em;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.footerleft {
+  float: left;
+  text-align: left;
+
+
+}
+
+.footerright {
+  float: right;
+  text-align: right;
+}
+
+.socialbutton {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  height: 3.3em;
+  width: 3.3em;
+  color: white;
+  text-decoration: none;
+  float: left;
+  margin-right: 2em;
+}
+
+.socialbutton:hover {
+  background: rgba(255,255,255,0.5);
+  text-decoration: none;
+  color: #DBDBDB;
+}
+
+.socialbutton:focus {
+  text-decoration: none;
+  color: white;
+  /*to remove dotted outline*/
+  outline: 0;
+}
+
+.socialtwitter {
+  background-image: url(../Images/icons/twitter.png);
+  height: 2.3em;
+  width: 2.3em;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.socialfacebook {
+  background-image: url(../Images/icons/facebook.png);
+  height: 2.3em;
+  width: 2.3em;
+  background-size: contain;
+  overflow: hidden;
+}
+
+
+.socialpositioningtw {
+  padding-top: .35em;
+  padding-left: .4em;
+}
+
+.socialLink {
+ color: #333;
+}
+.socialLink:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.socialLink:focus {
+  text-decoration: none;
+  /*to remove dotted outline*/
+  outline: 0;
+  color: #333;
 }

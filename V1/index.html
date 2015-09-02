@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <!-- buckelling up bootstrap -->
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -14,8 +15,9 @@
 </head>
 
 <body>
-  <!-- header -->
-  <header class="navbar-default noradius mynav">
+
+<!-- nav bar -->
+<header class="navbar-default noradius">
     <nav role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,12 +45,14 @@
   </p> -->
 </header>
 
-
+<!-- banner -->
 <section id="banner">
-  <h2>Get Reached,</h2>
-  <span class="glyphicon glyphicon-chevron-left arrowleft"></span>
-  <span class="glyphicon glyphicon-chevron-right arrowright"></span>
-  <p>Connect to the right people, through their loved ones.</p>
+  <h2 id="bannerone1" >Get Reached,</h2>
+  <h2 id="bannertwo1" >Earn Cash,</h2>
+  <span id="left" class="glyphicon glyphicon-chevron-left arrowleft"></span>
+  <span id="right" class="glyphicon glyphicon-chevron-right arrowright"></span>
+  <p id="bannerone2">Connect to the right people, through their loved ones.</p>
+  <p id="bannertwo2">by refering to your friends, as easy as it sounds.</p>
   <div id="getStarted1">
     <span class="glyphicon glyphicon-chevron-down displayblock" aria-hidden="true" style="opacity: .25;"></span>
     <span class="glyphicon glyphicon-chevron-down displayblock" aria-hidden="true" style="opacity: .50;"></span>
@@ -57,7 +61,7 @@
   </div>
 </section>
 
-
+<!-- body -->
 <section id="one" class="center">
   <img src="./Images/coolbreak.png" class="img-responsive">
   <h2>New way of thinking</h2>
@@ -69,25 +73,31 @@
         <div class="iconborder">
           <span class="glyphicon glyphicon-heart-empty iconheart" aria-hidden="true"></span>
         </div>
-        <span class="fonthelv">
-          People trust friends and loved one. Getting connected through friends recommendations will garuntee your business a quality customer.
-        </span>
+        <div class="textpadding">
+          <span class="fonthelvone">
+            People trust friends and loved one. Getting connected through friends recommendations will garuntee your business a quality customer.
+          </span>
+        </div>
       </div>
       <div class="col-lg-4 onecols">
         <div class="iconborder">
           <span class="glyphicon glyphicon-stats iconbars" aria-hidden="true"></span>
         </div>
-        <span class="fonthelv">
-          Increase your data chart now, especially for startups. Get connected to right people who will be happy to know about your business.
-        </span>
+        <div class="textpadding">
+          <span class="fonthelvone">
+            Increase your data chart now, especially for startups. Get connected to right people who will be happy to know about your business.
+          </span>
+        </div>
       </div>
       <div class="col-lg-4 onecols">
         <div class="iconborder">
           <span class="glyphicon glyphicon-usd iconusd" aria-hidden="true"></span>
         </div>
-        <span class="fonthelv">
-          Start a campaign now, get access to millions of consumers and boost your income. Starting a campaign is the best investment for your business.
-        </span>
+        <div class="textpadding">
+          <span class="fonthelvone">
+            Start a campaign now, get access to millions of consumers and boost your income. Starting a campaign is the best investment for your business.
+          </span>
+        </div>
       </div>
     </div>
     <!-- button : get started (Green) -->
@@ -108,15 +118,91 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 twocols">
+        <!-- get payed icon stuff -->
         <div class="iconborder2">
+          <div class="getpayedPositioning">
+            <div class="getpayed">
+            </div>
+          </div>
+        </div>
+        <div class="textpadding2">
+          <span class="fonthelvtwo ">Get involved in the biggest market on the web. Generate extra income and heal your budget while sitting behind your screen.</span>
+        </div>
+      </div>
+      <div class="col-sm-12 twocols">
+        <div class="iconborder3">
+          <span class="glyphicon glyphicon-king iconking"></span>
+        </div>
+        <div class="textpadding2">
+          <span class="fonthelvtwo">Be smart, get to know the strategy on how to get payed online while connecting with your loved ones.</span>
+        </div>
+      </div>
+      <div id="getStarted2" class="col-sm-12 twocols">
+        <a href="#" class="button3">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section id="three" class="center">
+  <div class="container">
+    <div class="row threerow">
+      <div class="col-sm-3">
+        <img src="./Images/icons/visa.png" class="paymentmethods">
+      </div>
+      <div class="col-sm-3">
+        <img src="./Images/icons/paypal.png" class="paymentmethods">
+      </div>
+      <div class="col-sm-3">
+        <img src="./Images/icons/mastercard.png" class="paymentmethods">
+      </div>
+      <div class="col-sm-3">
+        <img src="./Images/icons/american.png" class="paymentmethods">
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#" class="gotQuestionLink">
+  <section id="four" class="center">
+    <h2>Got A Question?</h2>
+    <span class="glyphicon glyphicon-send sendicon"></span>
+  </section>
+</a>
+
+<!-- footer -->
+<footer id="myfooter">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 footerleft">
+        <a href="#" class="socialLink">
+          <h2>Networkful</h2>
+        </a>
+        <span class="footerCopyright">© Copyright reserved 2015</span>
+      </div>
+      <div class="col-sm-6">
+        <div class="footerright">
+          <a href="#" class="socialLink">
+            <div class="socialbutton">
+              <div class="socialpositioningtw">
+                <div class="socialtwitter">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class=" socialLink">
+            <div class="socialbutton">
+              <div class="socialpositioningtw">
+                <div class="socialfacebook">
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
-
-</section>
-
+</footer>
 
 
 
@@ -130,18 +216,16 @@
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script>
 $(function() {
-  // // get on screen image
-  // var imageScreen = $('killit');
-  //
-  // // get off screen image
-  // var theImage = new Image();
-  // theImage = imageScreen.attr('src');
-  //
-  // // getting accurate height
-  // var imageHeight = theImage.height;
-  //
-  // // setting shadow's height as theImage height
-  // $('shadow').css({'height': imageHeight + 'px'});
+  $('#bannertwo1').hide();
+  $('#bannertwo2').hide();
+  $("#left").click(function() {
+    $('#bannerone1').fadeToggle();
+    $('#bannerone2').fadeToggle();
+    $('#bannertwo1').fadeToggle();
+    $('#bannertwo2').fadeToggle();
+
+  });
+
 });
 </script>
 </body>

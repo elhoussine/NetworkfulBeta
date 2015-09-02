@@ -1,5 +1,6 @@
 body {
   background: white;
+  padding :100px;
 }
 
 /* Rectangle 3: */
@@ -28,4 +29,12 @@ text-decoration: none;
   height: 10.35em;
   width: 10.35em;
   margin: 0 auto;
+}
+
+.getpayed {
+   background-image: url(payment7.png);
+   background-position: center center;
+height: 500px;
+width: 500px;
+transform: scale(.2);
 }
