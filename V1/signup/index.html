@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- buckelling up bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+
+  <!-- title here -->
+  <title>Networkful - Signup</title>
+</head>
+
+<body>
+
+
+
+  <section id="one">
+    <div class="container center">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header">
+            <h1>Networkful</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="two" class="center">
+    <div class="container-fluid">
+      <div class="panel panel-default signupPanel">
+        <div class="panel-heading">
+          <h3 class="panel-title">Sign up</h3>
+        </div>
+        <div class="panel-body signupContent">
+          <form>
+            <div class="form-group">
+              <label for="emailInput">Email address *</label>
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">@</span>
+                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="passwordInput">Password *</label>
+              <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="companyNameInput">Company</label>
+              <input type="text" class="form-control" id="companyNameInput" placeholder="Company">
+            </div>
+            <div class="from-group">
+              <label for="account-type-input">Choose account type *</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="account-type" id="adver" value="adver">
+                  Advertiser <span id="adver-icon" class="glyphicon glyphicon-question-sign"></span>
+                  <span id="adver-info" class="label label-default">I want to make Advertising Campaigns.</span>
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="account-type" id="recom" value="recom">
+                  Recommender <span id="recom-icon" class="glyphicon glyphicon-question-sign"></span>
+                  <span id="recom-info" class="label label-default">I want to recommend to my friends and make money.</span>
+                </label>
+              </div>
+              <span class="termsAgree">
+                Signing up signifies that you have read and agree to the Terms of Service and Privacy Policy.
+              </span>
+              <div class="right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- linking jquesry and last step of bootstrap -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- jquery business -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    $(function(){
+      // hiding two info labels
+      $('#adver-info').hide();
+      $('#recom-info').hide();
+
+      // showing adver info on hover icon
+      $('#adver-icon').hover(function() {
+        $('#adver-info').fadeToggle();
+      }, function() {
+        $('#adver-info').fadeToggle();
+      });
+
+      // showing recom info on hover icon
+      $('#recom-icon').hover(function() {
+        $('#recom-info').fadeToggle();
+      }, function() {
+        $('#recom-info').fadeToggle();
+      });
+    });
+    </script>
+  </body>
+  </html>

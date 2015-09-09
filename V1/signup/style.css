@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 11pt;
+  color: white;
+  /*gradient background from UIGradients */
+  background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #485563 10%, #29323c 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #485563 10%, #29323c 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #485563 10%, #29323c 90%); /* W3C */
+}
+
+#one {
+  padding-top: 2em;
+}
+
+#one h1 {
+  font-size: 4em;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -.08em;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-default {
+  background-color: #222;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: #898989;
+  -webkit-text-shadow: none;
+  text-shadow: none;
+}
+
+/*get rid off shadow*/
+.noshadow {
+  text-decoration: none;
+  -webkit-text-shadow: none;
+  text-shadow: none;
+}
+
+.bannercol {
+  background-color: #7D479E;
+  color: white;
+  text-align: left;
+  padding: 8em 0 2em 3em;
+}
+
+.bannercol h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.bannercol h4 {
+  margin: 0;
+}
+
+.adverButton {
+  margin-right: .5em;
+  width: 10em;
+}
+
+.recoButton {
+  margin-left: .5em;
+  width: 10em;
+}
+
+.signupButtonRow {
+  margin-top: .5em;
+}
+
+.signupHeader {
+  margin-top: 1em;
+}
+
+.signupHeader h2 {
+}
+
+#two {
+  margin-top: 1.5em;
+}
+
+.signupPanel {
+  width: 25em;
+  margin: 0 auto;
+}
+
+.signupContent {
+  text-align: left;
+  color: #222;
+}
+
+.right {
+  text-align: right;
+}
+
+.termsAgree {
+  text-align: center;
+  font-size: .8em;
+  color: #7A7A7A;
+}

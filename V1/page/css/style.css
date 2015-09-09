@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 11pt;
+  background-color: #F6F6F6;
+
+
+}
+.navbar-default {
+  background-color: #222;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: #898989;
+  -webkit-text-shadow: none;
+text-shadow: none;
+ }
+
+/*get rid off shadow*/
+ .noshadow {
+   text-decoration: none;
+   -webkit-text-shadow: none;
+   text-shadow: none;
+ }
+
+.bannercol {
+  background-color: #7D479E;
+  color: white;
+  text-align: left;
+  padding: 8em 0 2em 3em;
+}
+
+.bannercol h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.bannercol h4 {
+ margin: 0;
+}

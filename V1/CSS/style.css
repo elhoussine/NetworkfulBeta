@@ -14,12 +14,15 @@ body {
   background-image: none;
   background-repeat: no-repeat;
   color: #898989;
+  -webkit-text-shadow: none;
+text-shadow: none;
  }
 
- .navbar-brand {
-   text-shadow: 0;
+/*get rid off shadow*/
+ .noshadow {
    text-decoration: none;
-   
+   -webkit-text-shadow: none;
+   text-shadow: none;
  }
 
 
